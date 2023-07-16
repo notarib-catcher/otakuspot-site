@@ -1,0 +1,21 @@
+{
+  "name": "otakuspot-placeholder",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.1.0",
+    "svelte": "^3.52.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^3.2.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39"
+  }
+}
