@@ -7,10 +7,10 @@ import whatsappICON from "../assets/whatsapp.svg"
 <div class=" h-screen flex flex-col items-center justify-center">
     <img src = {otakuBG} class="w-[60%] max-md:w-[90%] object-cover top-0 left-0 z-10 fadeinAnim1" alt="Otaku logo">
     <div class=" w-screen h-fit max-md:mt-5 mt-8 flex flex-row items-center justify-center align-middle">
-        <button class=" fadeinIcon2 hover:scale-110 focus:scale-110 transition-all duration-200  md:p-4 p-[10px]  w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-black z-20 bg-opacity-30 hover:backdrop-blur-sm hover:bg-opacity-60 focus:backdrop-blur-sm focus:bg-opacity-60">
+        <button class=" fadeinIcon2 hover:scale-110 focus:scale-110 transition-all duration-200  md:p-4 p-[10px]  w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-black z-20 bg-opacity-30 hover:backdrop-blur-sm hover:bg-opacity-60 focus:backdrop-blur-sm focus:bg-opacity-60" on:click = {() => {window.location = "https://discord.gg/JnC56TVBU9"}}>
             <img src={discordICON} class="">
         </button>
-        <button class=" fadeinIcon1 ml-3 hover:scale-110 focus:scale-110 transition-all duration-200  md:p-4 p-[10px]  w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-black z-20 bg-opacity-30 hover:backdrop-blur-sm hover:bg-opacity-60 focus:backdrop-blur-sm focus:bg-opacity-60">
+        <button class=" fadeinIcon1 ml-3 hover:scale-110 focus:scale-110 transition-all duration-200  md:p-4 p-[10px]  w-[70px] h-[70px] md:w-[100px] md:h-[100px] rounded-full bg-black z-20 bg-opacity-30 hover:backdrop-blur-sm hover:bg-opacity-60 focus:backdrop-blur-sm focus:bg-opacity-60" on:click = {() => {window.location = "https://chat.whatsapp.com/LubpL3LX7uDBh95FNIJgsi"}}>
             <img src={whatsappICON} class=" w-full h-full">
         </button>
 
@@ -22,7 +22,6 @@ import whatsappICON from "../assets/whatsapp.svg"
         0% {
             transform: translateY(-50px);
             opacity:0.1;
-
         }
 
         2% {
